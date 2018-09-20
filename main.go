@@ -36,9 +36,9 @@ func main() {
 		fmt.Println("[" + strconv.Itoa(count)+ "] " + "Private Key: " + priv.ToWIF())
 
 		// 비트코인을 찾은 경우 break 테스트
-		if count == 3 {
-			addressCompressed = "1JdTWTAubsDWXWd7wcsFwMuSapMBh6efrQ"
-		}
+		//if count == 3 {
+		//	addressCompressed = "1JdTWTAubsDWXWd7wcsFwMuSapMBh6efrQ"
+		//}
 
 		fmt.Println("[" + strconv.Itoa(count)+ "] " + "address: " + addressCompressed)
 		totalReceived = getTotalReceived(addressCompressed, count)
